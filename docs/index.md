@@ -27,11 +27,11 @@ After creating an account, users will be able to create galleries for their art.
 * **Functionality**
 
     * Unauthenticated users will be able to browse and search for artists, view item galleries, and read comments and feedback left to artists by other users.
-    * Users will be able to create a profile, making them an authenticated user. This allows them to comment on items, rate artists, purchase items for sale, and request commissions.
-    * Through the options menu, a user will be able to change their account to a seller account, a second type of authenticated user that, in addition to the other features listed, also allows them to display, get feedback on, and sell the things they've made, as well as manage commissions.
-    * The seller will be able to add items to their profile, which will function as an art gallery. All products they have ever sold will be listed on their profile, which allows users to buy them (if they are for sale), comment on them, save them as favorites, and even commission the artist for them.
+    * Users will be able to create a profile, making them an authenticated user. This allows them to comment on items, rate artists, and request commissions.
+    * Through the options menu, a user will be able to display and get feedback on the things they've made, as well as manage commissions.
+    * The seller will be able to add items to their profile, which will function as an art gallery. All products they have ever posted will be listed on their profile, which allows users to buy them (by contacting the user to arrange the purchase), comment on them, and even commission the artist for them.
     * Sellers can also list lesser products that are related to a gallery item, like prints for one-off paintings or spare hardware for a furniture piece.
-    * Sellers can choose to either deliver the product to the customer themselves, allow the custom to pick up their purchases, or offer shipping.
+    * Sellers can choose to either deliver the product to the customer themselves, allow the customer to pick up their purchases, or offer shipping.
         * If they choose delivery, they can schedule a time and place to deliver the item. Both the seller and the buyer must agree, and the app will automatically notify the buyer when the seller is at the delivery location. It will not mark the item delivered until both devices confirm the delivery has occurred to everyone's satisfaction.
         * If they choose pickup, they can schedule a time and place to pick up the item. Both the seller and the buyer must agree, and the app will automatically notify the seller when the buyer is at the pickup location. It will not mark the item picked up until both devices confirm the pickup has occurred to everyone's satisfaction.
         * If they choose shipping, the app will automatically calculate shipping costs based on package dimensions and weight using an API service.
@@ -54,22 +54,19 @@ After creating an account, users will be able to create galleries for their art.
 
 * **Functionality**
 
-    * Currently, there are two planned roles for authenticated accounts on the server:
+    * Currently, there is one planned role for authenticated accounts on the server:
         * Users browsing without an account do not have a role, so they only have access to search and browse artists, view galleries, and read comments and feedback.
-        * Authenticated accounts by default will have the USER role, and will be able to do everything an unauthenticated user can do as well as comment on items, rate artists, purchase items for sale, and request commissions.
-        * The SELLER role is another authenticated account role that the USER can assign themselves if they wish. Having this role grants the user the ability to list items in their gallery, make sales, and open commissions, in addition to all of the privileges they had before.
+        * Authenticated accounts will be able to do everything an unauthenticated user can do as well as comment on items, rate artists, purchase items for sale, request commissions, list items in their gallery, and open commissions, in addition to all of the privileges they had before as an unauthenticated user.
     * The server will store all information on the accounts, gallery items, products, and feedback.
     * The server will keep track of an artist's waitlist and send notifications to the waiters.
     * The server will handle all notifications to the users regarding pick-up and delivery.
     * The server will handle calculating shipping details using the chosen API(s) and generating labels for the seller, as well as notifications for the buyer.
-    * The server will handle all payment transactions (currently switched off to remain in scope).
 
 * **Persistent data**
 
     * Customer accounts
     * Gallery items and products
     * Comments, rating, and other feedback
-    * Anything relating to payment
     
 * **External services**
 
@@ -87,3 +84,4 @@ After creating an account, users will be able to create galleries for their art.
 * I would like to incorporate social media integration, allowing sellers and buyers alike to post about products on Facebook, Twitter, and Instagram, and have it link back to the product page.
 * I would like to possibly incorporate all three major shipping service providers as opposed to just one.
 * I would like to add the option for sellers to sell their products as an auction as opposed to just a direct sale.
+* I would like to add the option for users to favorite art pieces.
