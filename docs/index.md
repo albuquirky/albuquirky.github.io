@@ -1,6 +1,8 @@
 ## Summary
 
-AlbuQuirky is a combination online art gallery and selling app for Android devices. Artists, crafters, builders, and creators of all sorts in the Albuquerque area can use it to display and sell the things they make to other Albuquerque residents. It will serve as an online showroom for their creations in perpetuity, as well as handle the selling and payment processing. It will also allow the seller to choose how the buyer will receive their purchase, including scheduling delivery or pick-up times and locations.
+AlbuQuirky is an online art gallery for Android devices. Artists, crafters, builders, and creators of all sorts in the Albuquerque area can use it to display and offer for sale the things they make to other Albuquerque residents. It will also serve as an online showroom for their creations in perpetuity.
+
+After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale, though all purchases and transactions will take place outside the app. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase - currently, options include parcel shipping through UPS and/or FedEx, as well as delivery by the artist or pick-up by the buyer, with delivery scheduling handled in the app.
 
 ## Intended users
 
@@ -18,7 +20,7 @@ AlbuQuirky is a combination online art gallery and selling app for Android devic
 
 * People whose products are too cumbersome to display publicly.
 
-    > As a custom furniture maker, I need an app that allows me to sell and schedule deliveries for my wares so I don't have to drag them around town displaying them.
+    > As a custom furniture maker, I need an app that allows me to schedule deliveries for my purchased wares so I don't have to drag them around town displaying them.
 
 ## Client component
 
@@ -43,8 +45,8 @@ AlbuQuirky is a combination online art gallery and selling app for Android devic
 * **Device/external services**
 
     * Device Services
-        * This app will use the camera to take photos of items to sell.
-        * This app will use the user's preferred calendar app to schedule delivery and pick-up times.
+        * This app will use the [Camera](https://developer.android.com/guide/topics/media/camera#:~:text=%20Camera%20API%20%201%20Saving%20media%20files.,fields%20that%20require%20permission.%20LENS_POSE_REFERENCE%20LENS_INFO_HYPERFOCAL_DISTANCE...%20More%20) to take photos of items to sell.
+        * This app will use the user's preferred [Calendar](https://developers.google.com/calendar/) app to schedule delivery and pick-up times.
     * External Services
         * [Google Maps API](https://developers.google.com/maps/documentation/android-sdk/overview) will be used to set delivery and pick-up locations. The app will still be able to function if access to this service is unavailable - scheduling deliveries and pick-ups will simply be suspended until access is restored.
         
@@ -71,12 +73,13 @@ AlbuQuirky is a combination online art gallery and selling app for Android devic
     
 * **External services**
 
-    * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculating shipping costs or permit the seller to print shipping labels. If access to the API is down, it may be able to store information from a sale to make the calculation later.
+    * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculate shipping costs or permit the seller to print shipping labels.
     * [jBCrypt](https://www.mindrot.org/projects/jBCrypt/) will be the one-way salted hash function used to handle authentication. The app will be unable to permit users to sign in if this service were to become unavailable, though artist galleries would still be viewable, as would anything else that does not require an account.
     
 ## Technical Design
 
 * [Entity-Relationship Diagram](entity-relationship.md)
+* [Data Model Implementation](data-model-implementation.md)
 
 ## Stretch goals/possible enhancements 
 
