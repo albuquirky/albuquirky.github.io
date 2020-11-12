@@ -4,6 +4,13 @@ AlbuQuirky is an online art gallery for Android devices. Artists, crafters, buil
 
 After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale, though all purchases and transactions will take place outside the app. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase - currently, options include parcel shipping through UPS and/or FedEx, as well as delivery by the artist or pick-up by the buyer, with delivery scheduling handled in the app.
 
+## Team Roster
+
+* Tyler Baum
+* Ricky Garcia
+* John Jaramillo
+* Justin Kelly
+
 ## Intended users
 
 * People who like to sell things in flea markets or on the street, but are unable to due to COVID-19.
@@ -73,10 +80,22 @@ After creating an account, users will be able to create galleries for their art.
     * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculate shipping costs or permit the seller to print shipping labels.
     * [jBCrypt](https://www.mindrot.org/projects/jBCrypt/) will be the one-way salted hash function used to handle authentication. The app will be unable to permit users to sign in if this service were to become unavailable, though artist galleries would still be viewable, as would anything else that does not require an account.
     
-## Technical Design
+## Current Implementation State
+
+* 
+
+## Wireframe
+
+## Server-Side Design and Implementation
 
 * [Entity-Relationship Diagram](entity-relationship.md)
 * [Data Model Implementation](data-model-implementation.md)
+
+## Client-Side Design and Implementation
+
+* 
+
+## Authentication SCheme
 
 ## Stretch goals/possible enhancements 
 
