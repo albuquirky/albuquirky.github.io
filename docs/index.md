@@ -86,6 +86,8 @@ After creating an account, users will be able to create galleries for their art.
 
 ## Wireframe
 
+* [Wireframe](wireframe.md)
+
 ## Server-Side Design and Implementation
 
 * [Entity-Relationship Diagram](entity-relationship.md)
