@@ -80,24 +80,25 @@ After creating an account, users will be able to create galleries for their art.
     * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculate shipping costs or permit the seller to print shipping labels.
     * [jBCrypt](https://www.mindrot.org/projects/jBCrypt/) will be the one-way salted hash function used to handle authentication. The app will be unable to permit users to sign in if this service were to become unavailable, though artist galleries would still be viewable, as would anything else that does not require an account.
     
-## Current Implementation State
-
-* 
-
 ## Wireframe
 
 * [Wireframe](wireframe.md)
 
+## Current Implementation State, Known Deficiencies, and Testing Progress
+
+* [Current State](current-state.md)
+
 ## Server-Side Design and Implementation
 
-* [Entity-Relationship Diagram](entity-relationship.md)
-* [Data Model Implementation](data-model-implementation.md)
+* [Server-Side Design and Implementation](server-side/server-side-design-and-implementation.md)
 
 ## Client-Side Design and Implementation
 
-* 
+* [Client-Side Design and Implementation](client-side-design-and-implementation.md)
 
-## Authentication SCheme
+## Authentication Scheme
+
+* [Authentication Scheme](authentication-scheme.md)
 
 ## Stretch goals/possible enhancements 
 
