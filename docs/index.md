@@ -86,15 +86,15 @@ After creating an account, users will be able to create galleries for their art.
 
 ## Current Implementation State, Known Deficiencies, and Testing Progress
 
-* [Current State](current-state.md)
+* [Current State](current-state/index.md)
 
 ## Server-Side Design and Implementation
 
-* [Server-Side Design and Implementation](server-side/server-side-design-and-implementation.md)
+* [Server-Side Design and Implementation](server-side/index.md)
 
 ## Client-Side Design and Implementation
 
-* [Client-Side Design and Implementation](client-side-design-and-implementation.md)
+* [Client-Side Design and Implementation](client-side/index.md)
 
 ## Authentication Scheme
 
