@@ -7,4 +7,4 @@
 * [Commission](https://github.com/albuquirky/albuquirky-service/blob/development/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Commission.java) 
 * [Profile](https://github.com/albuquirky/albuquirky-service/blob/development/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Profile.java) 
 * [Order](https://github.com/albuquirky/albuquirky-service/blob/development/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Order.java) 
-* [OrderItem](https://github.com/albuquirky/albuquirky-service/blob/development/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/OrderItem.java) 
+* [ProductOnOrder](https://github.com/albuquirky/albuquirky-service/blob/development/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/ProductOnOrder.java) 
