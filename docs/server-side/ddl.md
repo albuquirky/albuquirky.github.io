@@ -2,7 +2,7 @@
 
 [ddl.sql](sql/ddl.sql)
 
-```SQL
+```sql
 create sequence hibernate_sequence start with 1 increment by 1;
 create table commission
 (
