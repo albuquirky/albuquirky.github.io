@@ -1,8 +1,3 @@
-# DDL
-
-[ddl.sql](sql/ddl.sql)
-
-```SQL
 create sequence hibernate_sequence start with 1 increment by 1;
 create table commission
 (
@@ -270,4 +265,3 @@ alter table product_on_order
     add constraint FKa9uoev734xydxqi2gbjehrp0g foreign key (order_id) references order;
 alter table product_on_order
     add constraint FKdujqh9ogotyjn2u6c4bu4g778 foreign key (product_id) references product;
-```
