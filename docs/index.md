@@ -69,11 +69,13 @@ After creating an account, users will be able to create galleries for their art.
     * The server will handle all notifications to the users regarding pick-up and delivery.
     * The server will handle calculating shipping details using the chosen API(s) and generating labels for the seller, as well as notifications for the buyer.
 
+
 * **Persistent data**
 
     * Customer accounts
     * Gallery items and products
     * Comments, rating, and other feedback
+    
     
 * **External services**
 
