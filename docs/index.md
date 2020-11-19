@@ -45,10 +45,14 @@ After creating an account, users will be able to create galleries for their art.
     * The seller can choose to accept commissions. This will use a waitlist (which persists even when commissions are closed), with a number of positions set by the seller that autofill on a first-come, first-served basis. If someone withdraws from the waitlist, an item is marked complete, or is rejected by the seller, the waitlist will advance and notify the next person on the waitlist (who can either submit their commission request or choose to withdraw from the waitlist). If commissions are switched off, the waitlist is preserved for the commissions the seller has committed to, but nothing advances beyond the incomplete slots. Completed slots are closed and shut.
         * Example: A seller wants to do three commissions. The first three waiters on the waitlist automatically populate the freshly-opened commission slots (if applicable). If rejected or withdrawn by either party, the waitlist will shift up to fill the empty slots. When the first slot is marked complete, it will close, and the waitlist will not shift, unless the seller opens up additional waitlist slots.
 &nbsp;
+&nbsp;
+
 * **Persistent data**
 
     * Information about accepted scheduled pick up or delivery times, commission details, and shipping details will be stored locally in case of loss of connection to data/internet services, so that they can still be honored as agreed upon.
 &nbsp;
+&nbsp;
+
 * **Device/external services**
 
     * Device Services
@@ -69,12 +73,16 @@ After creating an account, users will be able to create galleries for their art.
     * The server will handle all notifications to the users regarding pick-up and delivery.
     * The server will handle calculating shipping details using the chosen API(s) and generating labels for the seller, as well as notifications for the buyer.
 &nbsp;
+&nbsp;
+
 * **Persistent data**
 
     * Customer accounts
     * Gallery items and products
     * Comments, rating, and other feedback
 &nbsp;
+&nbsp;
+
 * **External services**
 
     * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculate shipping costs or permit the seller to print shipping labels.
