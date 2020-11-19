@@ -2,30 +2,30 @@
 
 ## Entity Classes
 
-* [Commission]() 
-* [Image]()
-* [Order]() 
-* [Product]()
-* [ProductOnOrder]() 
-* [Profile]() 
+* [Commission](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Commission.java) 
+* [Image](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Image.java)
+* [Order](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Order.java) 
+* [Product](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Product.java)
+* [ProductOnOrder](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/ProductOnOrder.java) 
+* [Profile](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/entity/Profile.java) 
 
 ## Repository Interfaces
 
-* [CommissionRepository]()
-* [OrderRepository]()
-* [ProductRepository]()
-* [ProfileRepository]()
+* [CommissionRepository](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/dao/CommissionRepository.java)
+* [OrderRepository](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/dao/OrderRepository.java)
+* [ProductRepository](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/dao/ProductRepository.java)
+* [ProfileRepository](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/model/dao/ProfileRepository.java)
 
 ## REST Controller Classes
 
-* [CommissionController]()
-* [OrderController]()
-* [ProductController]()
-* [ProfileController]()
+* [CommissionController](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/controller/CommissionController.java)
+* [OrderController](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/controller/OrderController.java)
+* [ProductController](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/controller/ProductController.java)
+* [ProfileController](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/controller/ProfileController.java)
 
 ## Service Classes
 
-* [CommissionService]()
-* [OrderService]()
-* [ProductService]()
-* [ProfileService]()
+* [CommissionService](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/service/CommissionService.java)
+* [OrderService](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/service/OrderService.java)
+* [ProductService](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/service/ProductService.java)
+* [ProfileService](https://github.com/albuquirky/albuquirky-service/blob/master/src/main/java/edu/cnm/deepdive/albuquirky/service/ProfileService.java)

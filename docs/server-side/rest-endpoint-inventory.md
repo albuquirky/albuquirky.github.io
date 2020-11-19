@@ -1,4 +1,4 @@
-# Albuquirky Endpoints
+# AlbuQuirky Endpoints
 
 (work in progress)
 
@@ -6,7 +6,7 @@
 
 ### Server Context Path
 
-```/albuquirky```
+```/albuquirky/api```
 
 ### Authentication
 
