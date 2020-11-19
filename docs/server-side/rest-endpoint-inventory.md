@@ -117,60 +117,6 @@ Replaces username of current profile.
 *  `400 Bad Request`
 Empty request body.
 
-### `GET` `/profiles/me/password`
-
-### Description
-
-Retrieves password of current profile (companion to `PUT`).
-
-### Path parameters
-
-(None)
-
-### Query Parameters
-
-(None)
-
-### Request body
-
-(None)
-
-### Response body 
-
-`String` (`Content-type: text/plain`)
-
-### Response status
-
-* `200 OK`
-
-### `PUT` `/profiles/me/password`
-
-### Description
-
-Replaces password of current profile.
-
-### Path parameters
-
-(None)
-
-### Query parameters
-
-(None)
-
-### Request body
-
-`String` (`Content-type: text/plain`)
-
-### Response body
-
-`String` (`Content-type: text/plain`)
-
-### Response status
-
-*  `200 OK`
-*  `400 Bad Request`
-Empty request body.
-
 ### `GET` `/profiles/me/image`
 
 ### Description
@@ -279,7 +225,7 @@ Replaces address of current profile.
 *  `400 Bad Request`
 Empty request body.
 
-### `GET` `/orders`
+### `GET` `/orders/user_orders`
 
 ### Description
 
@@ -324,7 +270,7 @@ Return a specific `Order`.
 * `200 OK`
 * `404 Not Found`
 
-### `GET` `/commissions`
+### `GET` `/commissions/seller`
 
 ### Description
 
@@ -346,7 +292,7 @@ Return all instances of `Commission` where the User is the seller.
 
 * `200 OK`
 
-### `GET` `/commissions`
+### `GET` `/commissions/commissioner`
 
 ### Description
 
@@ -449,11 +395,11 @@ Replaces commission request of a specific commission.
 *  `400 Bad Request`
 Empty request body.
 
-### `GET` `/products`
+### `GET` `/products/{keyword}`
 
 ### Description
 
-Return all instances of `Product`.
+Return all instances of `Product` that matches a keyword.
 
 ### path Parameters
 
@@ -471,7 +417,7 @@ Return all instances of `Product`.
 
 * `200 OK`
 
-### `GET` `/products`
+### `GET` `/products/{userId}`
 
 ### Description
 
@@ -483,8 +429,7 @@ Return all instances of `Product` created by the User.
 
 ### Query parameters
 
-* long seller
-* String keyword
+* long userId
 
 ### Response Body
 
@@ -735,7 +680,7 @@ Replaces stock of a specific product.
 *  `400 Bad Request`
 Empty request body.
 
-### `GET` `/images`
+### `GET` `/images/{productId}`
 
 ### Description
 
