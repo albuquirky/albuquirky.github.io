@@ -1,7 +1,7 @@
 # Server-Side Design and Implementation
 
 * [Entity-Relationship Diagram](entity-relationship.md)
-* [Javadocs](/albuquirky.github.io/albuquirky-service/api/)
+* [Javadocs](/albuquirky-service/api/)
 * [Data Model Implementation](data-model-implementation.md)
 * [DDL](ddl.md)
 * [Endpoint Documentation](rest-endpoint-inventory.md)
