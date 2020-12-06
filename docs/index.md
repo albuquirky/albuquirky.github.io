@@ -11,7 +11,7 @@ After creating an account, users will be able to create galleries for their art.
 * John Jaramillo
 * Justin Kelly
 
-## Intended users
+## Intended Users
 
 * People who like to sell things in flea markets or on the street, but are unable to due to COVID-19.
 
@@ -29,7 +29,7 @@ After creating an account, users will be able to create galleries for their art.
 
     > As a custom furniture maker, I need an app that allows me to schedule deliveries for my purchased wares so I don't have to drag them around town displaying them.
 
-## Client component
+## Client Component
 
 * **Functionality**
 
@@ -45,11 +45,11 @@ After creating an account, users will be able to create galleries for their art.
     * The seller can choose to accept commissions. This will use a waitlist (which persists even when commissions are closed), with a number of positions set by the seller that autofill on a first-come, first-served basis. If someone withdraws from the waitlist, an item is marked complete, or is rejected by the seller, the waitlist will advance and notify the next person on the waitlist (who can either submit their commission request or choose to withdraw from the waitlist). If commissions are switched off, the waitlist is preserved for the commissions the seller has committed to, but nothing advances beyond the incomplete slots. Completed slots are closed and shut.
         * Example: A seller wants to do three commissions. The first three waiters on the waitlist automatically populate the freshly-opened commission slots (if applicable). If rejected or withdrawn by either party, the waitlist will shift up to fill the empty slots. When the first slot is marked complete, it will close, and the waitlist will not shift, unless the seller opens up additional waitlist slots.
 
-* **Persistent data**
+* **Persistent Data**
 
     * Information about accepted scheduled pick up or delivery times, commission details, and shipping details will be stored locally in case of loss of connection to data/internet services, so that they can still be honored as agreed upon.
 
-* **Device/external services**
+* **Device/External Services**
 
     * Device Services
         * This app will use the [Camera](https://developer.android.com/guide/topics/media/camera#:~:text=%20Camera%20API%20%201%20Saving%20media%20files.,fields%20that%20require%20permission.%20LENS_POSE_REFERENCE%20LENS_INFO_HYPERFOCAL_DISTANCE...%20More%20) to take photos of items to sell.
@@ -57,7 +57,7 @@ After creating an account, users will be able to create galleries for their art.
     * External Services
         * [Google Maps API](https://developers.google.com/maps/documentation/android-sdk/overview) will be used to set delivery and pick-up locations. The app will still be able to function if access to this service is unavailable - scheduling deliveries and pick-ups will simply be suspended until access is restored.
         
-## Server component
+## Server Component
 
 * **Functionality**
 
@@ -69,13 +69,13 @@ After creating an account, users will be able to create galleries for their art.
     * The server will handle all notifications to the users regarding pick-up and delivery.
     * The server will handle calculating shipping details using the chosen API(s) and generating labels for the seller, as well as notifications for the buyer.
 
-* **Persistent data**
+* **Persistent Data**
 
     * Customer accounts
     * Gallery items and products
     * Comments, rating, and other feedback
 
-* **External services**
+* **External Services**
 
     * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculate shipping costs or permit the seller to print shipping labels.
     * [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2) will be used to handle authentication. The app will be unable to permit users to sign in if this service were to become unavailable, though artist galleries would still be viewable, as would anything else that does not require an account.
@@ -87,7 +87,7 @@ After creating an account, users will be able to create galleries for their art.
 
 ## Current Implementation State, Known Deficiencies, and Testing Progress
 
-* [Current State](current-state/index.md)
+* [Current State](current-state.md)
 
 ## Server-Side Design and Implementation
 
@@ -101,7 +101,7 @@ After creating an account, users will be able to create galleries for their art.
 
 * [Authentication Scheme](authentication-scheme.md)
 
-## Stretch goals/possible enhancements 
+## Stretch Goals/Possible Enhancements 
 
 * Currently, payment buttons will be a placeholder and will not function as intended. I would like to eventually add payment through the app itself using [Square](https://developer.squareup.com/docs/sdks/java) or [Stripe](https://stripe.com/docs/api).
 * I would like to incorporate social media integration, allowing sellers and buyers alike to post about products on Facebook, Twitter, and Instagram, and have it link back to the product page.

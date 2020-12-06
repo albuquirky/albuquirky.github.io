@@ -247,6 +247,29 @@ Return all instances of `Order` placed by the User.
 
 * `200 OK`
 
+### `POST` `/orders`
+
+### Description
+
+Creates a new `Order`.
+
+### Path Parameters
+
+(None)
+
+### Query Parameters
+
+* (None)
+
+### Response Body
+
+`Order`
+
+### Response Status
+
+* `200 OK`
+
+
 ### `GET` `/orders/{orderId}`
 
 ### Description
@@ -316,13 +339,33 @@ Return all instances of `Commission` where the User is the commissioner.
 
 ### `POST` `/commissions`
 
+### Description
+
+Creates a new `Commission`.
+
+### Path Parameters
+
+(None)
+
+### Query Parameters
+
+* (None)
+
+### Response Body
+
+`Commission`
+
+### Response Status
+
+* `200 OK`
+
 ### `GET` `/commissions/{commissionId}`
 
 ### Description
 
 Return a specific `Commission`.
 
-### path Parameters
+### Path Parameters
 
 * long id
 
@@ -340,6 +383,25 @@ Return a specific `Commission`.
 * `404 Not Found`
 
 ### `DELETE` `/commissions/{commissionId}`
+
+Deletes a `Commission` from the database.
+
+### Path Parameters
+
+* long commissionId
+
+### Query Parameters
+
+(None)
+
+### Response Body
+
+(None)
+
+### Response Status
+
+* `200 OK`
+* `404 Not Found`
 
 ### `GET` `/commissions/{commissionId}/commission_request`
 
@@ -440,6 +502,27 @@ Return all instances of `Product` created by the User.
 * `200 OK`
 
 ### `POST` `/products`
+
+### Description
+
+Creates a new `Product`.
+
+### Path Parameters
+
+(None)
+
+### Query Parameters
+
+* (None)
+
+### Response Body
+
+`Product`
+
+### Response Status
+
+* `200 OK`
+
 
 ### `GET` `/products/{productId}`
 
@@ -704,6 +787,27 @@ long productId
 
 ### `POST` `/images`
 
+### Description
+
+Creates a new `Image`.
+
+### Path Parameters
+
+(None)
+
+### Query Parameters
+
+* (None)
+
+### Response Body
+
+`Image`
+
+### Response Status
+
+* `200 OK`
+
+
 ### `GET` `/images/{imageId}`
 
 ### Description
@@ -728,6 +832,26 @@ Return a specific `Image`.
 * `404 Not Found`
 
 ### `DELETE` `/images/{imageId}`
+
+Deletes an `Image` from the database.
+
+### Path Parameters
+
+* long commissionId
+
+### Query Parameters
+
+* `Image`
+* `Profile`
+
+### Response Body
+
+(None)
+
+### Response Status
+
+* `200 OK`
+* `404 Not Found`
 
 ### `GET` `/images/{imageId}/description`
 
