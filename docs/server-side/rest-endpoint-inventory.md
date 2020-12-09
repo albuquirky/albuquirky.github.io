@@ -247,6 +247,28 @@ Return all instances of `Order` placed by the User.
 
 * `200 OK`
 
+### `GET` `/orders/user_sold_orders`
+
+### Description
+
+Return all instances of `Order` that the User is responsible for fulfilling.
+
+### path Parameters
+
+(None)
+
+### Query parameters
+
+* long userId
+
+### Response Body
+
+`Order[]`
+
+### Response Status
+
+* `200 OK`
+
 ### `POST` `/orders`
 
 ### Description
@@ -268,7 +290,6 @@ Creates a new `Order`.
 ### Response Status
 
 * `200 OK`
-
 
 ### `GET` `/orders/{orderId}`
 
@@ -522,7 +543,6 @@ Creates a new `Product`.
 ### Response Status
 
 * `200 OK`
-
 
 ### `GET` `/products/{productId}`
 
@@ -806,7 +826,6 @@ Creates a new `Image`.
 ### Response Status
 
 * `200 OK`
-
 
 ### `GET` `/images/{imageId}`
 
