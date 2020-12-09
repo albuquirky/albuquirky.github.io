@@ -2,14 +2,30 @@
 
 AlbuQuirky is an online art gallery for Android devices. Artists, crafters, builders, and creators of all sorts in the Albuquerque area can use it to display and offer for sale the things they make to other Albuquerque residents. It will also serve as an online showroom for their creations in perpetuity.
 
-After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale, though all purchases and transactions will take place outside the app. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase - currently, options include parcel shipping through UPS and/or FedEx, as well as delivery by the artist or pick-up by the buyer, with delivery scheduling handled in the app.
+This app was conceptualized as a response to concern for independent artists in Albuquerque. Old Town is an iconic location in this city, and there are always dozens of indepedent crafters and artists lined up along the streets and walkways of Old Town displaying and selling their work, as well as countless small shops doing the same. COVID-19 hit fast and hard, and with seemingly no end in sight, it's hard to imagine how these creators are able to get their products into the hands of those that wish to buy them. AlbuQuirky was intended as a solution to this problem, allowing local crafters a platform through which they can sell their goods.
+
+After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase &dash; either by parcel shipping through UPS and/or FedEx, or via delivery by the artist or pick-up by the buyer, with delivery scheduling and fulfillment confirmation by both parties handled in the app.
+
+You can view a PDF version of the AlbuQuirky project summary [here](albuquirky-project-summary.pdf).
 
 ## Team Roster
 
-* Tyler Baum
-* Ricky Garcia
-* John Jaramillo
-* Justin Kelly
+* Tyler Baum - UI/UX Design
+    * [Email](mailto:tyler.baum@protonmail.com)
+    * [GitHub](https://github.com/AugmenTab)
+    * [LinkedIn](https://www.linkedin.com/in/thebaum)
+* Ricky Garcia - Documentation and Technical Writing
+    * [Email](mailto:rickyg08@msn.com)
+    * [GitHub](https://github.com/rickyG08)
+    * [LinkedIn](https://www.linkedin.com/in/rickyg08)
+* John Jaramillo - Authorization and Security
+    * [Email](mailto:jjaramillo1221@gmail.com)
+    * [GitHub](https://github.com/John-Jaramillo)
+    * [LinkedIn](https://www.linkedin.com/in/john-jaramillo-5172521b3)
+* Justin Kelly - REST Controllers and Server Wiring
+    * [Email](mailto:jmkelly2041@gmail.com)
+    * [GitHub](https://github.com/Jkelly97)
+    * [LinkedIn](https://www.linkedin.com/in/justin-kelly-1070311b6)
 
 ## Intended Users
 
@@ -85,7 +101,7 @@ After creating an account, users will be able to create galleries for their art.
 
 * [Wireframe](wireframe.md)
 
-## Current Implementation State, Known Deficiencies, and Testing Progress
+## Current Implementation State
 
 * [Current State](current-state.md)
 
