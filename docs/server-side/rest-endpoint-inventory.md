@@ -225,7 +225,7 @@ Replaces address of current profile.
 *  `400 Bad Request`
 Empty request body.
 
-### `GET` `/orders/user_orders`
+### `GET` `/orders/user-orders`
 
 ### Description
 
@@ -247,7 +247,7 @@ Return all instances of `Order` placed by the User.
 
 * `200 OK`
 
-### `GET` `/orders/user_sold_orders`
+### `GET` `/orders/user-sold-orders`
 
 ### Description
 
@@ -925,3 +925,47 @@ Replaces description of a specific image.
 *  `200 OK`
 *  `400 Bad Request`
 Empty request body.
+
+### `GET` `/product-on-order/{orderId}`
+
+### Description
+
+Return all instances of `ProductOnOrder` associated with a particular `Order`.
+
+### path Parameters
+
+(None)
+
+### Query parameters
+
+long orderId
+
+### Response Body
+
+`ProductOnOrder[]`
+
+### Response Status
+
+* `200 OK`
+
+### `POST` `/products-on-order`
+
+### Description
+
+Creates a new `ProductOnOrder`.
+
+### Path Parameters
+
+(None)
+
+### Query Parameters
+
+* (None)
+
+### Response Body
+
+`ProductOnOrder`
+
+### Response Status
+
+* `200 OK`
