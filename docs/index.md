@@ -6,7 +6,7 @@ This app was conceptualized as a response to concern for independent artists in 
 
 After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase &dash; either by parcel shipping through UPS and/or FedEx, or via delivery by the artist or pick-up by the buyer, with delivery scheduling and fulfillment confirmation by both parties handled in the app.
 
-You can view a PDF version of the AlbuQuirky project summary [here](albuquirky-project-summary.pdf).
+You can view a PDF version of the AlbuQuirky project summary [here](pdf/albuquirky-project-summary.pdf).
 
 ## Team Roster
 
@@ -49,10 +49,9 @@ You can view a PDF version of the AlbuQuirky project summary [here](albuquirky-p
 
 * **Functionality**
 
-    * Unauthenticated users will be able to browse and search for artists, view item galleries, and read comments and feedback left to artists by other users.
-    * Users will be able to create a profile, making them an authenticated user. This allows them to comment on items, rate artists, and request commissions.
-    * Through the options menu, a user will be able to display and get feedback on the things they've made, as well as manage commissions.
-    * The seller will be able to add items to their profile, which will function as an art gallery. All products they have ever posted will be listed on their profile, which allows users to buy them (by contacting the user to arrange the purchase), comment on them, and even commission the artist for them.
+    * Users will be able to create a profile, making them an authenticated user. This allows them to create and purchase products, and request commissions.
+    * Through dedicated pages, the user will be able to manage products, orders, and commissions.
+    * The seller will be able to add items to their profile, which will function as an art gallery. All products they have ever posted will be listed on their profile, which allows users to buy them (by contacting the user to arrange the purchase) and commission the artist for them.
     * Sellers can also list lesser products that are related to a gallery item, like prints for one-off paintings or spare hardware for a furniture piece.
     * Sellers can choose to either deliver the product to the customer themselves, allow the customer to pick up their purchases, or offer shipping.
         * If they choose delivery, they can schedule a time and place to deliver the item. Both the seller and the buyer must agree, and the app will automatically notify the buyer when the seller is at the delivery location. It will not mark the item delivered until both devices confirm the delivery has occurred to everyone's satisfaction.
@@ -95,7 +94,7 @@ You can view a PDF version of the AlbuQuirky project summary [here](albuquirky-p
 
     * Either the [FedEx](https://www.fedex.com/en-us/developer.html) or [UPS](https://www.ups.com/us/en/services/technology-integration/developer-api.page) API (or both) will be used to manage the shipping. The app will still be able to function if access to this service is unavailable, but will be unable to accurately calculate shipping costs or permit the seller to print shipping labels.
     * [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2) will be used to handle authentication. The app will be unable to permit users to sign in if this service were to become unavailable, though artist galleries would still be viewable, as would anything else that does not require an account.
-    * [Picasso](https://square.github.io/picasso/) will be used to handle image storage. The app will be unable to display images for products or users if this service were to become unavailable.
+    * [Picasso](https://square.github.io/picasso/) will be used to handle image presentation. The app will be unable to display images for products or users if this service were to become unavailable.
     
 ## Wireframe
 
