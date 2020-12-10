@@ -33,4 +33,10 @@
 
 ## Step Three: Executing the Build
 
-1. 
+1. Open the app in IntelliJ, if it isn't already open.
+2. An ```albuquirky.properties``` file must be included in order to correctly direct the application to the server. Please note that this file ***SHOULD NOT*** be stored in the same directory as the repository. This file must include the following attributes:
+    * The ```client_id``` must be set to a client ID in the Google Cloud Console. One must be set up on your Cloud Console project's OAuth 2.0 web client IDs section under Credentials for each device accessing the database. More information can be found [here](https://support.google.com/googleapi/answer/6158862?hl=en).
+    * The ```base_url``` must be set to the base URL from which your server will be operating. This will take the following form: ```http://[ADDRESS]:[PORT]/albuquirky/api/```
+        * The ```[ADDRESS]``` will differ depending on whether you are operating on a physical device or an emulator. You can find the physical device URL through a command terminal, but an emulator will usually use ```10.0.2.2```.
+        * The ```[PORT]``` represents the port through which traffic comes in and out of the server. This repository is using port ```8181```, but you can change this to any port you like by editing the ```server:port``` value in the ```application.yml``` file.
+3. Install and launch the app on your emulator or device.

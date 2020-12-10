@@ -33,8 +33,9 @@
 
 ## Step Three: Executing the Build
 
-1. This app requires some editing of the ```application.yml``` file in order to function. Within must be two values: ```client_id``` and ```base_url```.
-    * The ```client_id``` must be set to a client ID in the Google Cloud Console.
-    * The ```base_url``` must be set to the base URL from which your server will be operating. This will take the following form: ```http://[BASE URL]:[PORT]/albuquirky/api/```
-        * The ```[BASE URL]``` will differ depending on whether you are operating on a physical device or an emulator. You can find the physical device URL through a command terminal, but an emulator will usually use ```10.0.2.2```.
-        * The ```[PORT]``` represents the port through which traffic comes in and out of the server. This repository is using port ```8080```, but you can change this to any port you like by editing the ```server:port``` value in the ```application.yml``` file.
+1. Open the app in IntelliJ, if it isn't already open.
+2. This app requires some editing of the ```application.yml``` file in order to function - particularly, the  ```client_id``` file.
+    * The ```spring:security:oauth2:resourceserver:jwt:issuer-uri``` must be set to ```https://accounts.google.com```.
+    * The ```spring:security:oauth2:resourceserver:jwt:client-id``` must be set to a client ID in the Google Cloud Console. One must be set up on your Cloud Console project's OAuth 2.0 client IDs section under Credentials for each device accessing the application. More information can be found [here](https://support.google.com/googleapi/answer/6158862?hl=en).
+3. Navigate to the ```AlbuquirkyApplication``` class along the path ```src\main\java\edu\cnm\deepdive\albuquirky```.
+4. Launch the ```main``` method.
