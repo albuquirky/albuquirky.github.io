@@ -4,7 +4,7 @@ AlbuQuirky is an online art gallery for Android devices. Artists, crafters, buil
 
 This app was conceptualized as a response to concern for independent artists in Albuquerque. Old Town is an iconic location in this city, and there are always dozens of indepedent crafters and artists lined up along the streets and walkways of Old Town displaying and selling their work, as well as countless small shops doing the same. COVID-19 hit fast and hard, and with seemingly no end in sight, it's hard to imagine how these creators are able to get their products into the hands of those that wish to buy them. AlbuQuirky was intended as a solution to this problem, allowing local crafters a platform through which they can sell their goods.
 
-After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase &dash; either by parcel shipping through UPS and/or FedEx, or via delivery by the artist or pick-up by the buyer, with delivery scheduling and fulfillment confirmation by both parties handled in the app.
+After creating an account, users will be able to create galleries for their art. For those so inclined, they will also be able to offer these art pieces for sale. Buyers are also able to commission artists for unique custom pieces, and each artist can specify a number of waitlist slots for commissions, which the app will keep track of and notify the next user "in-line" to have their commission reviewed by the artist for consideration. For those that have sold a product, the app will allow the seller to choose how the buyer will receive their purchase - either by parcel shipping through UPS and/or FedEx, or via delivery by the artist or pick-up by the buyer, with delivery scheduling and fulfillment confirmation by both parties handled in the app.
 
 You can view a PDF version of the AlbuQuirky project summary [here](pdf/albuquirky-project-summary.pdf).
 
@@ -112,9 +112,9 @@ You can view a PDF version of the AlbuQuirky project summary [here](pdf/albuquir
 
 * [Client-Side Design and Implementation](client-side/index.md)
 
-## Authentication Scheme
+## Copyright and Licenses
 
-* [Authentication Scheme](authentication-scheme.md)
+* [Copyright and Licenses](licenses.md)
 
 ## Stretch Goals/Possible Enhancements 
 

@@ -2,15 +2,22 @@
 
 ## Current State Implementation
 
-* 
+* The app current builds and displays the user's profile page successfully.
+* They are able to update profile information (username, address, profile picture) and store the updated information to the server.
+* `Product` and `Commission` entities can be created successfully using Postman.
 
 ## Known Deficiencies
 
-* 
+* Only one page currently building and operating as intended on the client side.
+* Updating `Profile` information causes the server to store strings with surrounding quotation marks.
+* `Order`, `ProductOnOrder`, `Image` entities cannot be posted to the server.
 
-## Testing Progress
+## Aesthetic Improvements
 
-* 
+* We would like to design a more intuitive GUI with the use of floating action buttons and a dedicated Options menu.
+* We would like to implement pop-out windows for images, expandable `TextView` sections, and other dynamic layout features.
+* We would like to make the layouts more consistent in use of cards.
+* We would like to experiment with colors and layouts more to give the app its own distinct look.
 
 ## Technology Stack
 
@@ -30,9 +37,9 @@
     * Service controllers
         * Spring MVC
         * Custom controller classes
-    * View composition &and; serialization
+    * View composition & serialization
         * Jackson JSON
-        * Custom view classes &and; interfaces
+        * Custom view classes & interfaces
     * Authentication
         * Spring Security
         * Google Sign In (external service; see <https://developers.google.com/identity>)
