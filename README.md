@@ -1,6 +1,6 @@
 # albuquirky.github.io
 
-Copyright [2020] [Tyler Baum](https://github.com/AugmenTab), [Ricky Garcia](https://github.com/rickyG08), [John Jaramillo](https://github.com/John-Jaramillo), [Justin Kelly](https://github.com/Jkelly97); with contributions by [Nick Bennett](https://nick-bennett.github.io/) and [Todd Nordquist](https://github.com/tnordquist).
+Copyright 2020 [Tyler Baum](https://github.com/AugmenTab), [Ricky Garcia](https://github.com/rickyG08), [John Jaramillo](https://github.com/John-Jaramillo), [Justin Kelly](https://github.com/Jkelly97); with contributions by [Nick Bennett](https://nick-bennett.github.io/) and [Todd Nordquist](https://github.com/tnordquist).
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
