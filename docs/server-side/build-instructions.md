@@ -2,7 +2,7 @@
 
 ## Step One: Clone the GitHub Repository.
 
-1. Navigate to the GitHub repository [here]().
+1. Navigate to the GitHub repository [here](https://github.com/albuquirky/albuquirky-service).
 2. In the very top-right corner of the screen, select "Fork."
 3. Select the account or organization you would like to fork the repository to.
 4. Once selected, GitHub will redirect you to the newly-created ```albuquirky-service``` repository in your organization or account.
