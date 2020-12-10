@@ -81,7 +81,7 @@ Retrieves username of current profile (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -135,7 +135,7 @@ Retrieves profile image reference of current profile (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -189,7 +189,7 @@ Retrieves address of current profile (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -442,7 +442,7 @@ Retrieves commission request of a specific commission (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -585,7 +585,7 @@ Retrieves product name of a specific product (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -639,7 +639,7 @@ Retrieves description of a specific product (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -693,7 +693,7 @@ Retrieves price of a specific product (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `int` (`Content-type: text/plain`)
 
@@ -747,7 +747,7 @@ Retrieves stock of a specific product (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `int` (`Content-type: text/plain`)
 
@@ -890,7 +890,7 @@ Retrieves description of a specific image (companion to `PUT`).
 
 (None)
 
-### Response body 
+### Response body
 
 `String` (`Content-type: text/plain`)
 
@@ -925,47 +925,3 @@ Replaces description of a specific image.
 *  `200 OK`
 *  `400 Bad Request`
 Empty request body.
-
-### `GET` `/product-on-order/{orderId}`
-
-### Description
-
-Return all instances of `ProductOnOrder` associated with a particular `Order`.
-
-### path Parameters
-
-(None)
-
-### Query parameters
-
-long orderId
-
-### Response Body
-
-`ProductOnOrder[]`
-
-### Response Status
-
-* `200 OK`
-
-### `POST` `/products-on-order`
-
-### Description
-
-Creates a new `ProductOnOrder`.
-
-### Path Parameters
-
-(None)
-
-### Query Parameters
-
-* (None)
-
-### Response Body
-
-`ProductOnOrder`
-
-### Response Status
-
-* `200 OK`
