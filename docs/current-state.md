@@ -9,7 +9,7 @@
 
 ## Known Deficiencies
 
-* Only two pages currently building and operating as intended on the client side.
+* Three pages currently building, two of which are able to display and update information retrieved from the server.
 * Updating `Profile` information causes the server to store strings with surrounding quotation marks.
 * `Order`, `ProductOnOrder`, `Image` entities cannot be posted to the server.
 
