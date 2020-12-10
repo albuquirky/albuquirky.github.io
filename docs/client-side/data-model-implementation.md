@@ -2,3 +2,4 @@
 
 ## Entity Classes
 
+***Not yet implemented.***

@@ -1,7 +1,3 @@
 # DDL
 
-[ddl.sql](sql/client/ddl.sql)
-
-```
-CODE GOES HERE
-```
+***Not yet implemented.***

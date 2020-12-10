@@ -2,13 +2,14 @@
 
 ## Current State Implementation
 
-* The app current builds and displays the user's profile page successfully.
-* They are able to update profile information (username, address, profile picture) and store the updated information to the server.
+* The app current builds and displays the user's profile page successfully, and shows a browser page for searching for products.
+* Users are able to update profile information (username, address, profile picture) and store the updated information to the server.
+* Users are able to search for products on the browser page, filtering by name fragments. 
 * `Product` and `Commission` entities can be created successfully using Postman.
 
 ## Known Deficiencies
 
-* Only one page currently building and operating as intended on the client side.
+* Only two pages currently building and operating as intended on the client side.
 * Updating `Profile` information causes the server to store strings with surrounding quotation marks.
 * `Order`, `ProductOnOrder`, `Image` entities cannot be posted to the server.
 
